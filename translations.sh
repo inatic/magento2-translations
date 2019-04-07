@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /var/www/magento
 for lang_code in nl_BE fr_FR de_DE
 do
 	if [ ! -f source_$lang_code.csv ]; then
